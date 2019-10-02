@@ -6,9 +6,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <section id="content-cipher" class="content">
+      <div id="seccion-uno">
+          <h1>MESSAGE SCHOOL</h1>
+          <br>Iniciar Sesion<br><br>
+          <form id="milogin">
+              <label >Usuario</label><br>
+              <input id="username" type="text"  name="user" placeholder="Ingresar usuario aqui"><br><br>
+              <label >Contraseña</label><br>
+              <input id="password" type="password" name="password" placeholder="Ingresar contraseña aqui"><br><br>
+              <input id="login" type="button"  value="Ingresar" class="boton" onclick="go()"><br>
+          <!-- {HTML} <input id="nombre" type="text" name="name" placeholder="Ingresa tu nombre aqui">
+          <input id="button1" type="button" value="Comenzar" onclick="ingresar()">-->
+          </form>
+      </div>
+      <div id="seccion-dos">
+              <h1>MESSAGE SCHOOL</h1>
+              <br>Bienvenido<br><br>
+                  <input type="button" id="vermsj" value="Ver mensajes" class="boton" onclick="bandejamensajes()">
+                  <input type="button" id="crearmsj" value="Redactar mensaje" class="boton" onclick="redactarmensajes()"><br>
+                  <input type="button" id="cerrar" value="Cerrar Sesion" class="boton" onclick="cerrar()"><br>
+      </div>
+      <div id="seccion-tres">
+              <h1>MESSAGE SCHOOL</h1>
+              <br>BANDEJA<br><br>
+                  <label>Mensaje:</label><br>
+                  <input type="text" id="mensajeB" class="textbox"><br><br>
+                  <label >Ingresar Clave:</label><br>
+                  <input type="textbox" id="clave" class="clave_style"><br><br>
+                  <input type="button" id="login" value="Descifrar" class="boton" onclick="ingresar()"><br>
+                  <div>
+                  <input type="button" id="volver" value="Volver pagina principal" class="boton" onclick="atras()"><br>
+                  <input type="button" id="cerrar" value="Cerrar Sesion" class="boton" onclick="cerrar()"><br>
+                  </div>
+      </div>    
+      <div id="seccion-cuatro">
+              <h1>MESSAGE SCHOOL</h1>
+              <br>REDACTAR MENSAJE<br><br>
+                  <label >Destinatario:</label>
+                  <input type="text" id="destinatario" class="box-asuntoDes"><br><br>
+                  <label >Asunto:</label>
+                  <input type="textbox" id="asunto" class="box-asuntoDes"><br><br>
+                  <label >Mensaje:</label><br>
+                  <textarea id="mensajeR" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea><br><br>
+                  <label >Ingresar Clave:</label><br>
+                  <input type="textbox" id="clave" class="clave_style"><br><br>
+                  <input type="button" id="enviar" value="Enviar" class="boton" onclick="ingresar()"><br>
+                  <input type="button" id="volver" value="Volver pagina principal" class="boton" onclick="atras()"><br>
+                  <input type="button" id="cerrar" value="Cerrar Sesion" class="boton" onclick="cerrar()"><br>
+      </div>    
+    </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
