@@ -2,16 +2,18 @@ window.cipher = {
   encode: (string, offset) => {
       //mensaje recibido
       let msgCipher = "";
+      //Recorreremos cada letra de la frase 
       for (let i = 0; i < string.length; i++) {
           let character = string[i];
+          //identificacion de espacios vacios 
           if (character.match(/[a-z]/i)) {
+              //valida los numeros ascii de las mayusculas que van de 65-90
               if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
+                  //crea variable donde guarda el numero ASCII encriptado
+                  //Aplicaremos la formula de César para obtener el código ASCII de la letra ya encriptada
                   let textChar = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
                   msgCipher += String.fromCharCode(textChar);
-              } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-                  textChar = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
-                  msgCipher += String.fromCharCode(textChar);
-              }
+              } 
           } else {
               msgCipher += character;
           }
@@ -27,19 +29,15 @@ window.cipher = {
           let characterD = string[i];
           //identificacion de espacios vacios
           if (characterD.match(/[a-z]/i)) {
-              console.log(string.charCodeAt(i));
+              //console.log(string.charCodeAt(i));
 
               if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
+                  //crea variable donde guarda el numero ASCII encriptado
+                  //Aplicaremos la formula de César para obtener el código ASCII de la letra ya encriptada
                   let textChar = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
                   msgDecipher += String.fromCharCode(textChar);
                   console.log("entra");
-              } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-                  let textChar = ((string.charCodeAt(i) - 97 - parseInt(offset) + 52) % 26) + 97;
-                  msgDecipher += String.fromCharCode(textChar);
               }
-
-
-
           } else {
               msgDecipher += characterD;
           }

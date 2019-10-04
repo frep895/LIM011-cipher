@@ -31,9 +31,7 @@
               <h1>MESSAGE SCHOOL</h1>
               <br>BANDEJA<br><br>
                   <label>Mensaje:</label><br>
-                  <div class="msg-ckeck">
-                    <p id="msg-encode-check"></p>
-                  </div>
+                  
                   <br>
                   <!-- {HTML}<input type="text" id="mensajeB" class="textbox"><br><br> -->
                   <label >Ingresar Clave:</label><br>
@@ -50,6 +48,7 @@
       <div id="seccion-cuatro">
               <h1>MESSAGE SCHOOL</h1>
               <br>REDACTAR MENSAJE<br><br>
+              <form id="formularioBandeja">
                   <label >Destinatario:</label>
                   <input type="text" id="destinatario" class="box-asuntoDes"><br><br>
                   <label >Asunto:</label>
@@ -59,9 +58,21 @@
                   <label >Ingresar Clave:</label><br>
                   <input type="textbox" id="clavemsjNuevo" class="clave_style"><br><br>
                   <input type="button" id="enviarmsj" value="Enviar" class="boton"><br>
-                  <input type="button" id="volver2" value="Volver pagina principal" class="boton"><br>
+                  <br>
+                  <input type="button" id="volver2" value="Volver pagina principal" class="boton">
                   <input type="button" id="cerrarcrear" value="Cerrar Sesion" class="boton"><br>
-      </div>    
+              </form>
+      </div>
+      <div id="seccion-cinco">
+        <h1>MESSAGE SCHOOL</h1>
+        <br>ESTE ES SU MENSAJE CIFRADO<br><br>
+            <div class="msg-ckeck">
+              <p id="msg-encode-check"></p>
+            </div>
+            <br>
+            <input type="button" id="volver3" value="Volver pagina principal" class="boton">
+            <input type="button" id="cerrarMSJ" value="Cerrar Sesion" class="boton"><br>
+      </div>     
     </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

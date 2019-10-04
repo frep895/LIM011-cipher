@@ -1,6 +1,7 @@
 document.getElementById('seccion-dos').style.display = 'none';
 document.getElementById('seccion-tres').style.display = 'none';
 document.getElementById('seccion-cuatro').style.display = 'none';
+document.getElementById('seccion-cinco').style.display = 'none';
 
 const loginbtn = document.getElementById('login');
 loginbtn.addEventListener('click',()=>{
@@ -23,6 +24,8 @@ enviarmsjbtn.addEventListener("click", function() {
         let textEncode = document.getElementById("mensajeNuevo").value;
         let number_offset = document.getElementById("clavemsjNuevo").value;
         document.getElementById("msg-encode-check").innerHTML = window.cipher.encode(textEncode, number_offset);
+        document.getElementById('seccion-cinco').style.display = 'block';
+        document.getElementById('seccion-cuatro').style.display = 'none';
 });
 
 const Decodebtn = document.getElementById("decode");
@@ -43,27 +46,38 @@ crearmsjbtn.addEventListener('click',()=>{
     document.getElementById('seccion-cuatro').style.display = 'block';
     document.getElementById('seccion-dos').style.display = 'none';
 });
-// 2 botones VOLVER
+// 3 botones VOLVER
 const volverbtn = document.getElementById('volver');
 volverbtn.addEventListener('click',()=>{
     document.getElementById('seccion-dos').style.display = 'block';
     document.getElementById('seccion-tres').style.display = 'none';
     document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
 });
 const volverbtn2 = document.getElementById('volver2');
 volverbtn2.addEventListener('click',()=>{
     document.getElementById('seccion-dos').style.display = 'block';
     document.getElementById('seccion-tres').style.display = 'none';
     document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
 });
-// 3 botones CERRAR SESION
+const volverbtn3 = document.getElementById('volver3');
+volverbtn3.addEventListener('click',()=>{
+    document.getElementById('seccion-dos').style.display = 'block';
+    document.getElementById('seccion-tres').style.display = 'none';
+    document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
+});
+// 4 botones CERRAR SESION
 const cerrarbtn = document.getElementById('cerrar');
 cerrarbtn.addEventListener('click',()=>{
     document.getElementById('seccion-uno').style.display = 'block';
     document.getElementById('seccion-dos').style.display = 'none';
     document.getElementById('seccion-tres').style.display = 'none';
     document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
     document.getElementById("milogin").reset();
+    document.getElementById("formularioBandeja").reset();
 });
 const cerrarbanbtn = document.getElementById('cerrarban');
 cerrarbanbtn.addEventListener('click',()=>{
@@ -71,7 +85,9 @@ cerrarbanbtn.addEventListener('click',()=>{
     document.getElementById('seccion-dos').style.display = 'none';
     document.getElementById('seccion-tres').style.display = 'none';
     document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
     document.getElementById("milogin").reset();
+    document.getElementById("formularioBandeja").reset();
 });
 const cerrarcrearbtn = document.getElementById('cerrarcrear');
 cerrarcrearbtn.addEventListener('click',()=>{
@@ -79,5 +95,17 @@ cerrarcrearbtn.addEventListener('click',()=>{
     document.getElementById('seccion-dos').style.display = 'none';
     document.getElementById('seccion-tres').style.display = 'none';
     document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
     document.getElementById("milogin").reset();
+    document.getElementById("formularioBandeja").reset();
+});
+const cerrarMSJbtn = document.getElementById('cerrarMSJ');
+cerrarMSJbtn.addEventListener('click',()=>{
+    document.getElementById('seccion-uno').style.display = 'block';
+    document.getElementById('seccion-dos').style.display = 'none';
+    document.getElementById('seccion-tres').style.display = 'none';
+    document.getElementById('seccion-cuatro').style.display = 'none';
+    document.getElementById('seccion-cinco').style.display = 'none';
+    document.getElementById("milogin").reset();
+    document.getElementById("formularioBandeja").reset();
 });
