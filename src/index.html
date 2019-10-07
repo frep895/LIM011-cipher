@@ -16,8 +16,7 @@
               <label >Contraseña</label><br>
               <input id="password" type="password" name="password" placeholder="Ingresar contraseña aqui"><br><br>
               <input id="login" type="button"  value="Ingresar" class="boton" ><br>
-          <!-- {HTML} <input id="nombre" type="text" name="name" placeholder="Ingresa tu nombre aqui">
-          <input id="button1" type="button" value="Comenzar" onclick="ingresar()">-->
+              <br>
           </form>
       </div>
       <div id="seccion-dos">
@@ -26,41 +25,44 @@
                   <input type="button" id="vermsj" value="Ver mensajes" class="boton" >
                   <input type="button" id="crearmsj" value="Redactar mensaje" class="boton"><br>
                   <input type="button" id="cerrar" value="Cerrar Sesion" class="boton" ><br>
+                  <br>
       </div>
       <div id="seccion-tres">
               <h1>MESSAGE SCHOOL</h1>
               <br>BANDEJA<br><br>
+              <form id="mostrarBandeja">
                   <label>Mensaje:</label><br>
-                  
+                  <label id="mostrarMsj"></label>
                   <br>
-                  <!-- {HTML}<input type="text" id="mensajeB" class="textbox"><br><br> -->
+                  <br>
+                  <br>
+                  <br>
+                  <br>
                   <label >Ingresar Clave:</label><br>
                   <input type="textbox" id="clavedecode" class="clave_style"><br><br>
                   <input type="button" id="decode" value="Descifrar" class="boton"><br>
-                  <div class="msg-ckeck">
-                    <p id="msg-decode-check"></p>
-                  </div>
-                  <div>
                   <input type="button" id="volver" value="Volver pagina principal" class="boton"><br>
                   <input type="button" id="cerrarban" value="Cerrar Sesion" class="boton" ><br>
-                  </div>
+                  <br>
+              </form>
       </div>    
       <div id="seccion-cuatro">
               <h1>MESSAGE SCHOOL</h1>
               <br>REDACTAR MENSAJE<br><br>
               <form id="formularioBandeja">
                   <label >Destinatario:</label>
-                  <input type="text" id="destinatario" class="box-asuntoDes"><br><br>
+                  <input type="text" id="destinatario" class="box-asuntoDes" placeholder="Escribir destinatario..."><br><br>
                   <label >Asunto:</label>
-                  <input type="textbox" id="asunto" class="box-asuntoDes"><br><br>
+                  <input type="textbox" id="asunto" class="box-asuntoDes" placeholder="Escribir asunto..."><br><br>
                   <label >Mensaje:</label><br>
-                  <textarea id="mensajeNuevo" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea><br><br>
+                  <textarea id="mensajeNuevo" class="box-msg-style"  placeholder="Ingrese su mensaje..."></textarea><br><br>
                   <label >Ingresar Clave:</label><br>
                   <input type="textbox" id="clavemsjNuevo" class="clave_style"><br><br>
                   <input type="button" id="enviarmsj" value="Enviar" class="boton"><br>
                   <br>
                   <input type="button" id="volver2" value="Volver pagina principal" class="boton">
                   <input type="button" id="cerrarcrear" value="Cerrar Sesion" class="boton"><br>
+                  <br>
               </form>
       </div>
       <div id="seccion-cinco">
@@ -72,7 +74,20 @@
             <br>
             <input type="button" id="volver3" value="Volver pagina principal" class="boton">
             <input type="button" id="cerrarMSJ" value="Cerrar Sesion" class="boton"><br>
-      </div>     
+            <br>
+      </div>    
+      <div id="seccion-seis">
+        <h1>MESSAGE SCHOOL</h1>
+        <br>ESTE ES SU MENSAJE DECIFRADO<br><br>
+          <div class="msg-ckeck">
+            <p id="msg-decode-check"></p>
+          </div>
+            <br>
+            <input type="button" id="volver4" value="Volver pagina principal" class="boton">
+            <input type="button" id="cerrarMsjdecode" value="Cerrar Sesion" class="boton"><br>
+            <br>
+      </div>  
+
     </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
