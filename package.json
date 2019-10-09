@@ -7,7 +7,7 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest --verbose --coverage",
+    "test": "jest",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve ./src"
   },
@@ -25,5 +25,18 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-standard": "^4.0.1"
-  }
+  },
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)\r * [4. Consideraciones generales](#4-consideraciones-generales)\r * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)\r * [6. Hacker Edition](#6-hacker-edition)\r * [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frep895/LIM011-cipher.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/frep895/LIM011-cipher/issues"
+  },
+  "homepage": "https://github.com/frep895/LIM011-cipher#readme"
 }

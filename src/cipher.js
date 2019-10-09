@@ -25,8 +25,8 @@ window.cipher = {
   decode: (string, offset) => {
     // mensaje recibido
     let msgDecipher = ' '
-    let textChar = ' '
-    let characterD = ' '
+    let textChar
+    let characterD
 
     // inicio recorrido de caracteres
     for (let i = 0; i < string.length; i++) {

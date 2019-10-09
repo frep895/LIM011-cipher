@@ -8,7 +8,8 @@ const loginbtn = document.getElementById('login')
 loginbtn.addEventListener('click', () => {
   const nombreUsuario = document.getElementById('username')
   const codigo = document.getElementById('password')
-  if (nombreUsuario.value == 'padre' && codigo.value == '12345' || nombreUsuario.value == 'tutor' && codigo.value == '23456') {
+  // eslint-disable-next-line no-mixed-operators
+  if (nombreUsuario.value === 'padre' && codigo.value === '12345' || nombreUsuario.value === 'tutor' && codigo.value === '23456') {
     document.getElementById('seccion-uno').style.display = 'none'
     document.getElementById('seccion-dos').style.display = 'block'
   // eslint-disable-next-line brace-style
@@ -27,9 +28,11 @@ enviarmsjbtn.addEventListener('click', function () {
   const texto2 = document.getElementById('asunto').value
   const texto3 = document.getElementById('mensajeNuevo').value
   const textEncode = 'FROM: ' + texto1 + '; SUBJECT: ' + texto2 + ';\n MESSAGE: ' + texto3
+  // eslint-disable-next-line camelcase
   const number_offset = document.getElementById('clavemsjNuevo').value
   // eslint-disable-next-line eqeqeq
-  if (texto1 == '' && texto2 == '' && texto3 == '' && number_offset == '') { alert('Debes llenar todos los campos.') } else {
+  // eslint-disable-next-line camelcase
+  if (texto1 === '' && texto2 === '' && texto3 === '' && number_offset === '') { alert('Debes llenar todos los campos.') } else {
     document.getElementById('msg-encode-check').innerHTML = window.cipher.encode(textEncode, number_offset)
     document.getElementById('mostrarMsj').innerHTML = window.cipher.encode(textEncode, number_offset)
     document.getElementById('seccion-cinco').style.display = 'block'
@@ -41,9 +44,11 @@ const Decodebtn = document.getElementById('decode')
 Decodebtn.addEventListener('click', function () {
   // por se un label del que jalo informacion se utiliza .innerHTML y no .value que funciona muy bien en input
   const textDecode = document.getElementById('mostrarMsj').innerHTML
+  // eslint-disable-next-line camelcase
   const number_offset = document.getElementById('clavedecode').value
   // eslint-disable-next-line eqeqeq
-  if (number_offset == '') { alert('Debes llenar todos los campos.') } else {
+  // eslint-disable-next-line camelcase
+  if (number_offset === '') { alert('Debes llenar todos los campos.') } else {
     document.getElementById('msg-decode-check').innerHTML = window.cipher.decode(textDecode, number_offset)
     document.getElementById('seccion-seis').style.display = 'block'
     document.getElementById('seccion-tres').style.display = 'none'

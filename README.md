@@ -14,8 +14,8 @@
 
 ## 1. Preámbulo
 
-Este proyecto está enfocado en mejorar la comunicación entre el padre de familia y el tutor del alumno en una escuela.
-La comunicación de ambas partes debe ser ágil y fluida para mejorar habilidades, resolver problemas y entre muchas otras cosas que se pueden presentar durante la etapa educativa del estudiante.
+Durante la etapa de formacion de un niño, es necesario que los padres cuenten con la informacion necesaria de su hijo. Esta informacion debe ser ágil, fluida, segura y confidencial para mejorar habilidades, resolver problemas y entre muchas otras cosas que se pueden presentar, por esto veo necesario que tengan un canal de comunicacion exclusivo.
+Este proyecto está enfocado en mejorar la comunicación entre el padre de familia y el tutor del alumno en una escuela, con mensajes cifrados padre-profesor.
 
 ## 2. Resumen del proyecto
 
@@ -26,6 +26,8 @@ La aplicación web está dirigida a los padres de familia y a los profesores. Lo
 2. Ver mensajes: en esta interfaz se podrán ver los mensajes cifrados y será sumamente necesario que tenga la clave para poder leer el mensaje.
 
 Ya que el aplicativo es únicamente entre padres y profesores, ellos manejaran las claves para poder leer los mensajes. Esto hace posible que los mensajes sean totalmente privados.
+
+![lapizpapel](https://photos.google.com/album/AF1QipNfkxpv9bLf6YnOSlZXZrzwWzG9oqb_yd4v3ANA/photo/AF1QipOe2NBItTa-LVk_zFnd6hhHtyhWTSTi5LJPjhJS)
 
 ## 3. Objetivos de aprendizaje
 
