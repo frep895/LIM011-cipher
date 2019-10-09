@@ -27,45 +27,18 @@ La aplicación web está dirigida a los padres de familia y a los profesores. Lo
 
 Ya que el aplicativo es únicamente entre padres y profesores, ellos manejaran las claves para poder leer los mensajes. Esto hace posible que los mensajes sean totalmente privados.
 
-![lapizpapel](https://photos.google.com/album/AF1QipNfkxpv9bLf6YnOSlZXZrzwWzG9oqb_yd4v3ANA/photo/AF1QipOe2NBItTa-LVk_zFnd6hhHtyhWTSTi5LJPjhJS)
+## 3. Primer prototipo
 
-## 3. Objetivos de aprendizaje
+Esta es una foto del protipo inicial, hecho alapiz y papel.
 
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
+![](images/prototipopapel.png)
 
-Dicho en palabras sencillas, aprenderás a:
+Era un modelo simple, que a mi parecer tenia todo lo que mi proyecto iba a necesitar. Pero despues se hicieron unos cambios necesarios y por estetica.
 
-* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución para él.
-* Entender la importancia del proceso de prototipado durante la creación de un
-  proyecto digital.
-* Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas  de HTML5 y elementos de formulario.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id,
-  etc.
-* Utilizar el modelo de cajas (border, margin, padding)
-* Definir reglas de estilos en CSS.
-* Utilizar eventos del DOM que le permitan al usuario interactuar con la
-  aplicación.
-* Utilizar los métodos de selección del DOM.
-* Actualizar de manera dinámica el contenido de la aplicación a través de
-  innerHTML o textContent.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo if-else, do-while** (bucles y condicionales).
-* _Implementar funciones_ dada una descripción de su comportamiento.
-* Verificar que tus funciones hagan las cosas para las que fueron creadas
-(**pruebas unitarias (_test_) con Jest**).
-* Configurar tu cuenta de _git_.
-* _Forkear_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto (_ commit_, _pull_,
-  _push_).
-* Desplegar tu proyecto en _gh-pages_.
+## 4. Feedback
 
-## 4. Consideraciones generales
-
-* Este proyecto se debe resolver de manera individual.
+* Para mejorar la presentación del envió de mensajes y lectura de mensajes, se agregó una nueva interfaz que los muestra aparte.
+* También se tuvo que agregar los botones de cerrar sesión y volver a la bandeja principal ,que no tenía contemplados desde el inicio y resultaron super útiles.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
