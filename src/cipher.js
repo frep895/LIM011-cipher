@@ -1,7 +1,7 @@
 window.cipher = {
   encode: (string, offset) => {
     // mensaje recibido
-    let msgCipher = ' '
+    let msgCipher = ''
     let character
     let textChar
     // Recorreremos cada letra de la frase
@@ -24,7 +24,7 @@ window.cipher = {
   },
   decode: (string, offset) => {
     // mensaje recibido
-    let msgDecipher = ' '
+    let msgDecipher = ''
     let textChar
     let characterD
 

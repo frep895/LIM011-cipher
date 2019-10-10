@@ -30,9 +30,9 @@ describe('cipher', () => {
     // el test a continuación.
     //
     //
-    // it('debería retornar " !@" para " !@"', () => {
-    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
-    // });
+    it('debería retornar " !@" para " !@"', () => {
+      expect(cipher.encode(' !@', 33)).toBe(' !@')
+    })
   })
   describe('cipher.decode', () => {
     it('debería ser una función', () => {
@@ -40,7 +40,7 @@ describe('cipher', () => {
     })
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
       // escribe aquí tus test
-      expect(cipher.encode('HIJKLMNOPQRSTUVWXYZABCDEFG', 33)).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+      expect(cipher.decode('HIJKLMNOPQRSTUVWXYZABCDEFG', 33)).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
     })
     //
     // Hacker edition
@@ -61,8 +61,8 @@ describe('cipher', () => {
     // el test a continuación.
     //
     //
-    // it('debería retornar " !@" para " !@"', () => {
-    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
-    // });
+    it('debería retornar " !@" para " !@"', () => {
+      expect(cipher.decode(' !@', 33)).toBe(' !@')
+    })
   })
 })

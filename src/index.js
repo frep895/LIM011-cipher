@@ -27,7 +27,7 @@ enviarmsjbtn.addEventListener('click', function () {
   const texto1 = document.getElementById('destinatario').value
   const texto2 = document.getElementById('asunto').value
   const texto3 = document.getElementById('mensajeNuevo').value
-  const textEncode = 'FROM: ' + texto1 + '; SUBJECT: ' + texto2 + ';\n MESSAGE: ' + texto3
+  const textEncode = 'TO: ' + texto1 + '; SUBJECT: ' + texto2 + ';\n MESSAGE: ' + texto3
   // eslint-disable-next-line camelcase
   const number_offset = document.getElementById('clavemsjNuevo').value
   // eslint-disable-next-line eqeqeq
