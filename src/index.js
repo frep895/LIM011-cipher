@@ -32,8 +32,8 @@ enviarmsjbtn.addEventListener('click', function () {
   const number_offset = document.getElementById('clavemsjNuevo').value
   // eslint-disable-next-line eqeqeq
   // eslint-disable-next-line camelcase
-  if (texto1 === '' && texto2 === '' && texto3 === '' && number_offset === '') { alert('Debes llenar todos los campos.') } else {
-    document.getElementById('msg-encode-check').innerHTML = window.cipher.encode(textEncode, number_offset)
+  if (texto1 === '' || texto2 === '' || texto3 === '' || number_offset === '') { alert('Debes llenar todos los campos.') } else {
+    document.getElementById('msj-cifrado').innerHTML = window.cipher.encode(textEncode, number_offset)
     document.getElementById('mostrarMsj').innerHTML = window.cipher.encode(textEncode, number_offset)
     document.getElementById('seccion-cinco').style.display = 'block'
     document.getElementById('seccion-cuatro').style.display = 'none'
@@ -49,7 +49,7 @@ Decodebtn.addEventListener('click', function () {
   // eslint-disable-next-line eqeqeq
   // eslint-disable-next-line camelcase
   if (number_offset === '') { alert('Debes llenar todos los campos.') } else {
-    document.getElementById('msg-decode-check').innerHTML = window.cipher.decode(textDecode, number_offset)
+    document.getElementById('msj-decifrado').innerHTML = window.cipher.decode(textDecode, number_offset)
     document.getElementById('seccion-seis').style.display = 'block'
     document.getElementById('seccion-tres').style.display = 'none'
   }

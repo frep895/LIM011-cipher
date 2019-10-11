@@ -28,7 +28,7 @@ Ya que el aplicativo es únicamente entre padres y profesores, ellos manejaran l
 
 ## 3. Primer prototipo
 
-Esta es una foto del protipo inicial, hecho alapiz y papel.
+Esta es una foto del protipo inicial, hecho a lapiz y papel.
 
 ![](images/prototipopapel.png)
 
