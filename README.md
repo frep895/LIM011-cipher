@@ -8,6 +8,7 @@
 * [4. Feedback](#4-feedback)
 * [5. Diseño de prototipo](#5-diseño-de-prototipo)
 * [6. Vista final del proyecto](#6-vista-final-del-proyecto)
+* [7. Objetivos de aprendizaje Cipher](#7-objetivos-de-aprendizaje-Cipher)
 
 ***
 
@@ -98,3 +99,44 @@ Estos son los resultados del proyecto, seguidamente una guía paso a paso:
 8. Después de presionar el botón descifrar se muestra el mensaje descifrado y los botones de volver a la pagina principal y cerrar sesión.
 
 ![](images/pantallaMostrarDecifrado.PNG)
+
+## 7. Objetivos de aprendizaje Cipher
+​
+A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+​
+### UX
+​
+- [ Si ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ Si ] Crear prototipos para obtener feedback e iterar.
+- [ Si ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+​
+### HTML y CSS
+​
+- [ Si ] Uso correcto de HTML semántico.
+- [ Si ] Uso de selectores de CSS.
+- [ Si ] Construir tu aplicación respetando el diseño realizado (maquetación).
+​
+### DOM
+​
+- [ Si ] Uso de selectores del DOM.
+- [ Si ] Manejo de eventos del DOM.
+- [ Si ] Manipulación dinámica del DOM.
+​
+### Javascript
+​
+- [ No ] Manipulación de strings.
+- [ Si ] Uso de condicionales (if-else | switch).
+- [ No ] Uso de bucles (for | do-while).	
+- [ No ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ Si ] Declaración correcta de variables (const & let).
+​
+### Testing
+- [ No ] Testeo de tus funciones.
+​
+### Git y GitHub
+- [ No ] Comandos de git (add | commit | pull | status | push).
+- [ No ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+​
+### Buenas prácticas de desarrollo
+- [ No ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ No ] Uso de linter para seguir buenas prácticas (ESLINT).
