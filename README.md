@@ -106,37 +106,37 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 ​
 ### UX
 ​
-- [ Si ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ Si ] Crear prototipos para obtener feedback e iterar.
-- [ Si ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 ​
 ### HTML y CSS
 ​
-- [ Si ] Uso correcto de HTML semántico.
-- [ Si ] Uso de selectores de CSS.
-- [ Si ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 ​
 ### DOM
 ​
-- [ Si ] Uso de selectores del DOM.
-- [ Si ] Manejo de eventos del DOM.
-- [ Si ] Manipulación dinámica del DOM.
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
 ​
 ### Javascript
 ​
-- [ No ] Manipulación de strings.
-- [ Si ] Uso de condicionales (if-else | switch).
-- [ No ] Uso de bucles (for | do-while).	
-- [ No ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ Si ] Declaración correcta de variables (const & let).
+- [] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [] Uso de bucles (for | do-while).	
+- [] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
 ​
 ### Testing
-- [ No ] Testeo de tus funciones.
+- [] Testeo de tus funciones.
 ​
 ### Git y GitHub
-- [ No ] Comandos de git (add | commit | pull | status | push).
-- [ No ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [] Comandos de git (add | commit | pull | status | push).
+- [] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 ​
 ### Buenas prácticas de desarrollo
-- [ No ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ No ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [] Uso de linter para seguir buenas prácticas (ESLINT).
