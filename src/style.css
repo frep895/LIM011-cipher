@@ -74,3 +74,7 @@ body {
     padding: 10px;
     box-shadow: 2px 2px 10px 1px #898989;
 }
+
+.font-1 {
+  font-family: "Homer Simpson", cursive;
+}
